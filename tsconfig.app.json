@@ -2,7 +2,8 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./out-tsc/app",
-    "types": []
+    "types": ["@types/google.visualization"],
+    "emitDecoratorMetadata": true
   },
   "files": [
     "src/main.ts",

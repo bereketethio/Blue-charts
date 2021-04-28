@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "BlissPro";
+    src: local("BlissPro"), url(../assets/fonts/Blisspro.otf) format("truetype");
+}
